@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0; /* elimina los márgenes predeterminados */
     padding: 0; /* elimina los padding predeterminados */
-    background-color: #f5f5f5; /* establece el color de fondo en gris claro */
+    background-color: #828282; /* establece el color de fondo en gris claro */
 }
 
 /* Estilos para el contenedor principal */
@@ -15,7 +15,7 @@ body {
 /* Estilos para la sección de encabezado */
 header {
     background-color: #333; /* establece el color de fondo del encabezado en gris oscuro */
-    color: #fff; /* establece el color del texto del encabezado en blanco */
+    color: rgb(25, 248, 92); /* establece el color del texto del encabezado en blanco */
     padding: 20px; /* establece un padding de 20px en todos los lados */
 }
 

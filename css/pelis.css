@@ -2,6 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    font-family: Arial, sans-serif;
+    margin: 0; /* elimina los márgenes predeterminados */
+    padding: 0; /* elimina los padding predeterminados */
+    background-color: #828282; /* establece el color de fondo en gris claro */
   }
   
   .peliculas {
@@ -9,6 +14,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     width: 80%;
+
   }
   
   .pelicula {
@@ -20,3 +26,4 @@ body {
   img {
     width: 100%;
   }
+ 
