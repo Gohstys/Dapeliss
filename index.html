@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <link rel="icon" type="image/x-icon" href="./img/favicon.jpg">
-
+<script src="./Java/busacdor.js"></script>
 <meta charset="utf-8">
 <!--ADAPTACION-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +17,9 @@
         <link rel="stylesheet" type="text/css" href="./css/buscador.css">
         <script src="./Java/busacdor.js"></script>
 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
         <meta charset="utf-8">
     </head>
     <!--fIN TITULO-->
@@ -25,11 +28,17 @@
         <li><a href="./Pelis/mapimage.html">Map Image</a></li>
         <li><a href="#contact">Contact</a></li>
         <li style="float:right"><a class="active" href="#about">About</a></li>
-        <form action="./php/buscador.php" method="post">
+        <!--<form action="./php/buscador.php" method="post">
             <input type="text" placeholder="Search" id="searchInput">
-            <button type="submit" id="searchButton">Go</button>
+            <button type="submit" id="saearchButton">Go</button>
 
+        </form>-->
+        <form>
+            <input type="text" id="searchInput">
+            <button type="submit" id="searchButton">Buscar</button>
         </form>
+        <ul id="movieList"></ul>
+
     </ul>
     <!--body-->
     <body>
@@ -37,6 +46,8 @@
             <h1>Dapelis</h1>
         </header>
         <!--Cartelera-->
+        <ul id="movieList"></ul>
+
         <div id="main-container">
             <div class="movie-card">
                 <a href="./Pelis/evangelion.html">
@@ -48,7 +59,8 @@
 
                 <div class="movie-card">
                     <a href="./Pelis/evangelion2.22.html">
-                        <img src="./img/evangelion2.22.jpg" alt="Evangelion 2.22"
+                        <img src="./img/evangelion2.22.jpg" alt="Evangelion
+                            2.22"
                             style="max-width:100%;height:auto;">
                         <h2>Evangelion 2.22</h2>
                         <p>Sinopsis de la película 2</p>
@@ -56,7 +68,8 @@
 
                     <div class="movie-card">
                         <a href="./Pelis/evangelion3.0.html">
-                            <img src="./img/evangelion3.jpg" alt="Evangelion 3.0"
+                            <img src="./img/evangelion3.jpg" alt="Evangelion
+                                3.0"
                                 style="max-width:100%;height:auto;">
                             <h2>Evangelion 3.0</h2>
                             <p>Sinopsis de la película 3</p>
@@ -68,11 +81,15 @@
 
                     <nav style="display: flex; justify-content: center;
                         background-color: #333; color: #fff; padding: 10px;">
-                        <a href="./Términos y Condiciones/Términos_y_Condiciones.html" style="color:
+                        <a href="./Términos y
+                            Condiciones/Términos_y_Condiciones.html"
+                            style="color:
                             #fff;
                             text-decoration: none;
                             margin: 0 10px;">Términos y Condiciones</a>
-                        <a href="./Política de Privacidad/Política_de_Privacidad.html" style="color:
+                        <a href="./Política de
+                            Privacidad/Política_de_Privacidad.html"
+                            style="color:
                             #fff;
                             text-decoration: none;
                             margin: 0 10px;">Política de Privacidad</a>
