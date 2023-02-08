@@ -15,6 +15,7 @@
         <link rel="stylesheet" type="text/css" href="./css/color.css">
         <link rel="stylesheet" type="text/css" href="./css/navbar2.css">
         <link rel="stylesheet" type="text/css" href="./css/buscador.css">
+        <script src="./Java/busacdor.js"></script>
 
         <meta charset="utf-8">
     </head>
@@ -25,8 +26,8 @@
         <li><a href="#contact">Contact</a></li>
         <li style="float:right"><a class="active" href="#about">About</a></li>
         <form action="./php/buscador.php" method="post">
-            <input type="text" placeholder="Search">
-            <button type="submit">Go</button>
+            <input type="text" placeholder="Search" id="searchInput">
+            <button type="submit" id="searchButton">Go</button>
 
         </form>
     </ul>
@@ -39,9 +40,9 @@
         <div id="main-container">
             <div class="movie-card">
                 <a href="./Pelis/evangelion.html">
-                    <img src="./img/evangelion1.0.jpg" alt="Evangelion 1.1"
+                    <img src="./img/evangelion1.0.jpg" alt="Evangelion 1.0"
                         style="max-width:100%;height:auto;">
-                    <h2>Evangelion</h2>
+                    <h2>Evangelion 1.0</h2>
                     <p>Sinopsis de la película 1</p>
                 </div>
 
@@ -49,7 +50,7 @@
                     <a href="./Pelis/evangelion2.22.html">
                         <img src="./img/evangelion2.22.jpg" alt="Evangelion 2.22"
                             style="max-width:100%;height:auto;">
-                        <h2>Película 2</h2>
+                        <h2>Evangelion 2.22</h2>
                         <p>Sinopsis de la película 2</p>
                     </div>
 
@@ -57,7 +58,7 @@
                         <a href="./Pelis/evangelion3.0.html">
                             <img src="./img/evangelion3.jpg" alt="Evangelion 3.0"
                                 style="max-width:100%;height:auto;">
-                            <h2>Película 3</h2>
+                            <h2>Evangelion 3.0</h2>
                             <p>Sinopsis de la película 3</p>
                         </div>
                     </div>
