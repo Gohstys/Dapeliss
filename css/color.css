@@ -1,56 +1,131 @@
 /* Estilos para el body */
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* elimina los márgenes predeterminados */
-    padding: 0; /* elimina los padding predeterminados */
-    background-color: #f5f5f5; /* establece el color de fondo en gris claro */
+    margin: 0;
+    /* elimina los márgenes predeterminados */
+    padding: 0;
+    /* elimina los padding predeterminados */
+    background-color: #828282;
+    /* establece el color de fondo en gris claro */
+
+    margin-top: 50px;
+    /* Tamaño de la barra superior */
+
+
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+iframe,
+img {
+    border: 5px solid #000000;
+    /* Establece el grosor y el color del borde */
 }
 
 /* Estilos para el contenedor principal */
 #main-container {
-    width: 80%; /* establece un ancho del 80% para el contenedor */
-    margin: 0 auto; /* centra el contenedor horizontalmente */
+    width: 80%;
+    /* establece un ancho del 80% para el contenedor */
+    margin: 0 auto;
+    /* centra el contenedor horizontalmente */
 }
 
 /* Estilos para la sección de encabezado */
 header {
-    background-color: #333; /* establece el color de fondo del encabezado en gris oscuro */
-    color: #fff; /* establece el color del texto del encabezado en blanco */
-    padding: 20px; /* establece un padding de 20px en todos los lados */
+    background-color: #333;
+    /* establece el color de fondo del encabezado en gris oscuro */
+    color: rgb(25, 248, 92);
+    /* establece el color del texto del encabezado en blanco */
+    padding: 20px;
+    /* establece un padding de 20px en todos los lados */
+    margin-bottom: 20px;
 }
 
 /* Estilos para la sección de películas */
 .movie-card {
-    width: 30%; /* establece un ancho del 30% para las tarjetas de películas */
-    float: left; /* hace que las tarjetas floten a la izquierda */
-    margin: 10px; /* establece un margen de 10px en todos los lados */
+    width: 30%;
+    /* establece un ancho del 30% para las tarjetas de películas */
+    float: left;
+    /* hace que las tarjetas floten a la izquierda */
+    margin: 10px;
+    /* establece un margen de 10px en todos los lados */
 }
 
 /* Estilos para las imágenes de las películas */
 .movie-card img {
-    width: 100%; /* hace que la imagen llene todo el ancho de la tarjeta */
-    border-radius: 5px; /* establece un borde redondeado de 5px */
+    width: 100%;
+    /* hace que la imagen llene todo el ancho de la tarjeta */
+    border-radius: 5px;
+    /* establece un borde redondeado de 5px */
 }
 
 /* Estilos para el pie de página */
 footer {
-    clear: both; /* limpia los elementos flotantes */
-    text-align: center; /* centra el texto */
-    padding: 20px; /* establece un padding de 20px en todos los lados */
+    clear: both;
+    /* limpia los elementos flotantes */
+    text-align: center;
+    /* centra el texto */
+    padding: 20px;
+    /* establece un padding de 20px en todos los lados */
 }
+
 .movie-card {
     float: left;
-    width: 30%; /* establece el ancho de la tarjeta */
-    margin-right: 2%; /* agrega margen a la derecha */
+    width: 30%;
+    /* establece el ancho de la tarjeta */
+    margin-right: 2%;
+    /* agrega margen a la derecha */
 }
-#main-container{
+
+#main-container {
     clear: both;
- }
- #main-container {
+}
+
+#main-container {
     display: grid;
     justify-content: center;
 }
+
 #main-container {
     display: flex;
     justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    /* Alinea los elementos al centro */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    /* Establece un margen uniforme entre los enlaces */
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    /* Establece el color de fondo */
+    color: #fff;
+    /* Establece el color del texto */
 }
