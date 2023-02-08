@@ -17,10 +17,12 @@
         <link rel="stylesheet" type="text/css" href="./css/buscador.css">
         <script src="./Java/busacdor.js"></script>
 
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
 
         <meta charset="utf-8">
+        <!-- JS -->
+        <script src="js/jquery.js"></script>
+        <script src="js/load.js"></script>
+        <script src="js/jquery.dataTables.min.js"></script>
     </head>
     <!--fIN TITULO-->
     <ul>
@@ -34,7 +36,7 @@
 
         </form>-->
         <form>
-            <input type="text" id="searchInput">
+            <input type="text" id="inputBusqueda">
             <button type="submit" id="searchButton">Buscar</button>
         </form>
         <ul id="movieList"></ul>
@@ -45,6 +47,13 @@
         <header>
             <h1>Dapelis</h1>
         </header>
+        <!-- Busqueda -->
+        <div class="search" id="search">
+            <table class="search-tabla" id="searchTabla">
+                <thead><tr><td></td></tr></thead>
+                <tbody id="tabla"></tbody>
+            </table>
+        </div>
         <!--Cartelera-->
         <ul id="movieList"></ul>
 
@@ -101,5 +110,6 @@
                     <footer>
                         Copyright © 2023 Gohsty Shop INC.
                     </footer>
+                    <script src="./Java/busacdor.js"></script>
                 </body>
             </html>
