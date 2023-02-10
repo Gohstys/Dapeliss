@@ -25,39 +25,34 @@
         <script src="js/jquery.dataTables.min.js"></script>
     </head>
     <!--fIN TITULO-->
-    <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./Pelis/mapimage.html">Map Image</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li style="float:right"><a class="active" href="#about">About</a></li>
-        <!--<form action="./php/buscador.php" method="post">
+    <!--body-->
+    <body>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Pelis/mapimage.html">Map Image</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li style="float:right"><a class="active" href="#about">About</a></li>
+            <!--<form action="./php/buscador.php" method="post">
             <input type="text" placeholder="Search" id="searchInput">
             <button type="submit" id="saearchButton">Go</button>
 
         </form>-->
-        <form>
-            <input type="text" id="inputBusqueda">
-            <button type="submit" id="searchButton">Buscar</button>
-        </form>
-        <ul id="movieList"></ul>
+            <form>
+                <input type="text" id="mySearch" onkeyup="myFunction()">
+                <button type="submit" id="searchButton">Buscar</button>
+            </form>
+            <ul id="movieList"></ul>
 
-    </ul>
-    <!--body-->
-    <body>
+        </ul>
+
         <header>
             <h1>Dapelis</h1>
         </header>
-        <!-- Busqueda -->
-        <div class="search" id="search">
-            <table class="search-tabla" id="searchTabla">
-                <thead><tr><td></td></tr></thead>
-                <tbody id="tabla"></tbody>
-            </table>
-        </div>
+
         <!--Cartelera-->
-        <ul id="movieList"></ul>
 
         <div id="main-container">
+            <!--<div id="myMenu">-->
             <div class="movie-card">
                 <a href="./Pelis/evangelion.html">
                     <img src="./img/evangelion1.0.jpg" alt="Evangelion 1.0"
@@ -84,32 +79,33 @@
                             <p>Sinopsis de la película 3</p>
                         </div>
                     </div>
-                    <!--Fin cartelera-->
+                </div>
+                <!--Fin cartelera-->
 
 
 
-                    <nav style="display: flex; justify-content: center;
-                        background-color: #333; color: #fff; padding: 10px;">
-                        <a href="./Términos y
-                            Condiciones/Términos_y_Condiciones.html"
-                            style="color:
-                            #fff;
-                            text-decoration: none;
-                            margin: 0 10px;">Términos y Condiciones</a>
-                        <a href="./Política de
-                            Privacidad/Política_de_Privacidad.html"
-                            style="color:
-                            #fff;
-                            text-decoration: none;
-                            margin: 0 10px;">Política de Privacidad</a>
-                        <a href="./index.html" style="color: #fff;
-                            text-decoration: none;
-                            margin: 0 10px;">Home</a>
-                    </nav>
-                    <!--Cº-->
-                    <footer>
-                        Copyright © 2023 Gohsty Shop INC.
-                    </footer>
-                    <script src="./Java/busacdor.js"></script>
-                </body>
-            </html>
+                <nav style="display: flex; justify-content: center;
+                    background-color: #333; color: #fff; padding: 10px;">
+                    <a href="./Términos y
+                        Condiciones/Términos_y_Condiciones.html"
+                        style="color:
+                        #fff;
+                        text-decoration: none;
+                        margin: 0 10px;">Términos y Condiciones</a>
+                    <a href="./Política de
+                        Privacidad/Política_de_Privacidad.html"
+                        style="color:
+                        #fff;
+                        text-decoration: none;
+                        margin: 0 10px;">Política de Privacidad</a>
+                    <a href="./index.html" style="color: #fff;
+                        text-decoration: none;
+                        margin: 0 10px;">Home</a>
+                </nav>
+                <!--Cº-->
+                <footer>
+                    Copyright © 2023 Gohsty Shop INC.
+                </footer>
+                <script src="./Java/busacdor.js"></script>
+            </body>
+        </html>
