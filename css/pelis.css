@@ -57,3 +57,22 @@ iframe {
   top: 0;
   left: 0;
 }
+
+/* Styling for the button */
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: yellow;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Styling for the hover effect */
+.floating-btn:hover {
+  background-color: #07f81b;
+  color: black;
+}
