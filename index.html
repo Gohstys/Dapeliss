@@ -42,7 +42,16 @@
                 <button type="submit" id="searchButton">Buscar</button>
             </form>
             <ul id="movieList"></ul>
+            <!--Audio-->
+            <audio id="background-music" autoplay loop>
+                <source src="./mp3/fondo.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+                
+            </audio>
+            <button onclick="playAudio()">Reproducir audio</button>
+            <!--<input type="range" min="0" max="1" step="0.1" value="1" oninput="setVolume()"> -->
 
+            <!--fin audio-->
         </ul>
 
         <header>
@@ -58,7 +67,7 @@
                     <img src="./img/evangelion1.0.jpg" alt="Evangelion 1.0"
                         style="max-width:100%;height:auto;">
                     <h2>Evangelion 1.0</h2>
-                    <p>Sinopsis de la película 1</p>
+                    <p>Película</p>
                 </div>
 
                 <div class="movie-card">
@@ -67,7 +76,7 @@
                             2.22"
                             style="max-width:100%;height:auto;">
                         <h2>Evangelion 2.22</h2>
-                        <p>Sinopsis de la película 2</p>
+                        <p>Película</p>
                     </div>
 
                     <div class="movie-card">
@@ -76,7 +85,7 @@
                                 3.0"
                                 style="max-width:100%;height:auto;">
                             <h2>Evangelion 3.0</h2>
-                            <p>Sinopsis de la película 3</p>
+                            <p>Película</p>
                         </div>
                     </div>
                 </div>
@@ -86,12 +95,14 @@
 
                 <nav style="display: flex; justify-content: center;
                     background-color: #333; color: #fff; padding: 10px;">
-                    <a href="./Términos y Condiciones/Términos_y_Condiciones.html"
+                    <a
+                        href="./Términos_y_Condiciones/Términos_y_Condiciones.html"
                         style="color:
                         #fff;
                         text-decoration: none;
                         margin: 0 10px;">Términos y Condiciones</a>
-                    <a href="./Política de Privacidad/Política_de_Privacidad.html"
+                    <a
+                        href="./Política_de_Privacidad/Política_de_Privacidad.html""
                         style="color:
                         #fff;
                         text-decoration: none;
