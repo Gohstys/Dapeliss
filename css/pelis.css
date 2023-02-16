@@ -76,3 +76,20 @@ iframe {
   background-color: #07f81b;
   color: black;
 }
+.cartelera {
+  background-image: url("../img/txt.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px;
+  text-align: left;
+  letter-spacing: 2px;
+}
+.div-container {
+  width: 80%;
+  height: 0;
+  padding-bottom: 60.25%;
+  /* Establece una proporción de alto/ancho */
+  position: relative;
+}
